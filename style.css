@@ -4,21 +4,25 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
-
+h2{
+    font-size: 35px;
+}
 .color {
     color: orange;
 }
 
-section {
+.fexiable-container {
     display: flex;
     margin-bottom: 10%;
+    
+    
 }
 
 .half-width {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 5%;
 }
 
 .half-width img {
@@ -43,4 +47,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    width: 40%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+#full-stack-web-developar{
+    border-left: 7px solid tomato;
+}
+
+#web-developar{
+    border-left: 7px solid blue;
+}
+
+footer{
+    text-align: center;
 }
